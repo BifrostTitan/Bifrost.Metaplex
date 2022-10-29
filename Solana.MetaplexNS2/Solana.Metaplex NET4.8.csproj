@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+<LangVersion>9.0</LangVersion>
+<UserSecretsId>ae2e9549-9111-413d-b66f-bcca9ce5f193</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Solnet.Extensions">
+      <HintPath>..\..\Solana.Unity-Core\src\Solana.Unity.Extensions\bin\Debug\netstandard2.0\Solnet.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Solnet.KeyStore">
+      <HintPath>..\..\Solana.Unity-Core\src\Solana.Unity.KeyStore\bin\Debug\netstandard2.0\Solnet.KeyStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Solnet.Programs">
+      <HintPath>..\..\Solana.Unity-Core\src\Solana.Unity.Programs\bin\Debug\netstandard2.0\Solnet.Programs.dll</HintPath>
+    </Reference>
+    <Reference Include="Solnet.Rpc">
+      <HintPath>..\..\Solana.Unity-Core\src\Solana.Unity.Rpc\bin\Debug\netstandard2.0\Solnet.Rpc.dll</HintPath>
+    </Reference>
+    <Reference Include="Solnet.Wallet">
+      <HintPath>..\..\Solana.Unity-Core\src\Solana.Unity.Wallet\bin\Debug\netstandard2.0\Solnet.Wallet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
